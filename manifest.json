@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Shortcut Sensei",
+    "description": "Shortcuts to productivity",
+    "version": "1.0.0",
+    "icons": {
+        "128": "keyrocket128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "jquery-3.6.0.js",
+                "content.js",
+                "extension.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "keyrocket128.png"
+    }
+}

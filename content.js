@@ -1,0 +1,1 @@
+console.log(document.styleSheets[1].cssRules[0].selectorText);
