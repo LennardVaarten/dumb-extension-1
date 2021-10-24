@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Shortcut Sensei",
-    "description": "Shortcuts to productivity",
+    "name": "Paulify",
+    "description": "",
     "version": "1.0.0",
     "icons": {
-        "128": "keyrocket128.png"
+        "128": "paul128.jpg"
     },
     "content_scripts": [
         {
@@ -13,12 +13,11 @@
             ],
             "js": [
                 "jquery-3.6.0.js",
-                "content.js",
-                "extension.js"
+                "content.js"
             ]
         }
     ],
     "action": {
-        "default_icon": "keyrocket128.png"
+        "default_icon": "paul128.jpg"
     }
 }
